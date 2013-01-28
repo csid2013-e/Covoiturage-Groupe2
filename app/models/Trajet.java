@@ -20,13 +20,13 @@ public class Trajet extends Model{
 	public Date date;
 	
 	@Required
-	public User user;
+	public int idUser;
 	
-	public Trajet(String villeDepart, String villeArrive, Date date, User user) {
+	public Trajet(String villeDepart, String villeArrive, Date date, int idUser) {
 		VilleDepart = villeDepart;
 		VilleArrive = villeArrive;
 		this.date = date;
-		this.user =user;
+		this.idUser = idUser;
 	}
 
 	@Override
