@@ -10,3 +10,5 @@ HEROKU_POSTGRESQL_GREEN_URL: postgres://zukhygusrlxewl:Y96ZBvwE8JyLa9WgXw2fFEWFZ
 JAVA_OPTS:                   -Xmx384m -Xss512k -XX:+UseCompressedOops
 PATH:                        .play:.jdk/bin:.tools:/usr/local/bin:/usr/bin:/bin
 PLAY_OPTS:                   --%prod -Dprecompiled=true
+
+http://www.touilleur-express.fr/2011/09/19/deployer-play-framework-heroku/
