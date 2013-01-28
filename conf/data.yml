@@ -1,0 +1,48 @@
+User(conducteur):
+    id_user: 1
+    last_name_user: Ntumba
+    first_name_user: Julien
+    ville: Marseille
+    nom_rue: rue de la nouvelle france
+    code_postal: 93100
+    tel_fix: 0606060606
+    portable: 0606060606
+    courriel: csid2013@gmail.com
+    statut_user: 0
+
+User(locataire):
+    id_user: 2
+    last_name_user: Farot
+    first_name_user: Charlie
+    ville: Marseille
+    nom_rue: rue de la nouvelle france
+    code_postal: 93100
+    tel_fix: 0606060606
+    portable: 0606060606
+    courriel: csid2013@gmail.com
+    statut_user: 1
+
+Trajet(trajet1):
+    VilleDepart: Paris
+    VilleArrive: Marseille
+    date: 2007-08-05
+    idUser: 1
+
+Trajet(trajet2):
+    VilleDepart: Marseille
+    VilleArrive: Paris
+    date: 2007-08-10
+    idUser: 1
+
+Trajet(trajet3):
+    VilleDepart: Paris
+    VilleArrive: Lille
+    date: 2008-08-05
+    idUser: 2
+
+Trajet(trajet3):
+    VilleDepart: Lille
+    VilleArrive: Paris
+    date: 2008-08-10
+    idUser: 2
+
